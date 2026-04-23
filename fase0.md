@@ -31,5 +31,17 @@ Menyiapkan Jetson Nano, perangkat kamera, dan lingkungan dasar sehingga proyek d
    - [ ] Konfigurasi JetPack dan alamat IP dicatat
    - [ ] Hasil pengujian awal dicatat
 
+## Cara Pakai
+
+1. Pastikan file `fase0.sh` memiliki izin eksekusi:
+   ```bash
+   chmod +x fase0.sh
+   ```
+2. Jalankan skrip pada Jetson Nano:
+   ```bash
+   ./fase0.sh
+   ```
+3. Ikuti pesan output untuk melengkapi instalasi dan validasi.
+
 ## Catatan
 Fase 0 adalah basis untuk fase berikutnya. Setelah semua poin selesai, tim dapat lanjut ke pengembangan deteksi dan komunikasi.
